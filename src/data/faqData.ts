@@ -26,18 +26,6 @@ export const FAQ_ITEMS: FaqItem[] = [
       'The highest possible quality is Maximum Resolution (maxresdefault.jpg), which offers 1280 × 720 pixels (HD/1080p). If a creator did not upload an HD thumbnail, the system will provide High Quality (hqdefault.jpg at 480 × 360 px) or Standard Definition.',
   },
   {
-    id: 'how-to-transcribe',
-    question: 'How do I generate and copy a video transcript?',
-    answer:
-      'After pasting any YouTube video URL and clicking "Get Thumbnail", scroll to the "Video Transcription & Script" section. The tool automatically retrieves the official captions or synthesizes an AI transcription. Click "Copy Full Transcript" to copy the clean text, or choose "Copy w/ Timestamps" to keep [MM:SS] markers.',
-  },
-  {
-    id: 'export-transcripts',
-    question: 'Can I download the transcript as a file or subtitles?',
-    answer:
-      'Yes! You can download the transcript as a plain text file (.txt) or as a SubRip subtitle file (.srt) for use in video editing software like Premiere, DaVinci Resolve, or Final Cut Pro.',
-  },
-  {
     id: 'is-it-free',
     question: 'Is this tool free?',
     answer:
