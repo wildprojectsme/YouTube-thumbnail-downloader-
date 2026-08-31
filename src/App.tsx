@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Header } from './components/Header';
 import { ThumbnailForm } from './components/ThumbnailForm';
 import { ThumbnailResults } from './components/ThumbnailResults';
+import { TranscriptSection } from './components/TranscriptSection';
 import { AdPlaceholder } from './components/AdPlaceholder';
 import { HowToSection } from './components/HowToSection';
 import { UrlExplanationSection } from './components/UrlExplanationSection';
@@ -59,7 +60,10 @@ export default function App() {
 
             {/* Results section */}
             {videoData && (
-              <ThumbnailResults data={videoData} onClear={handleClear} />
+              <>
+                <ThumbnailResults data={videoData} onClear={handleClear} />
+                <TranscriptSection videoId={videoData.videoId} />
+              </>
             )}
 
             {/* In-feed Ad Banner */}

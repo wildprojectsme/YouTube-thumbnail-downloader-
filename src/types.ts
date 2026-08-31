@@ -24,3 +24,21 @@ export interface FaqItem {
   question: string;
   answer: string;
 }
+
+export interface TranscriptSegment {
+  time: string;
+  seconds: number;
+  text: string;
+}
+
+export interface VideoTranscriptData {
+  videoId: string;
+  title: string;
+  source: 'youtube_captions' | 'ai_gemini';
+  language?: string;
+  segments: TranscriptSegment[];
+  plainText: string;
+  timestampedText: string;
+  summary?: string;
+}
+
