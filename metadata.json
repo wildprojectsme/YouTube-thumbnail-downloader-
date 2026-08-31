@@ -1,0 +1,7 @@
+{
+  "name": "YouTube Thumbnail Downloader",
+  "description": "Free YouTube Thumbnail Downloader. Paste a YouTube video URL to instantly preview, copy and download its thumbnail in high quality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
